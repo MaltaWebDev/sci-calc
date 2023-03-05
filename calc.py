@@ -7,16 +7,23 @@ while True:
     oper = input("\nChoose an option from the menu: ")
 
     # Addition
-    if oper == "0":
-        value_one = float(input("\nFirst value:"))
-        value_two = float(input("\nSecond value:"))
+    if oper == "0": 
+        value_one = float(input("\nFirst value: "))
+        value_two = float(input("\nSecond value: "))
         print(f"The answer is: {value_one + value_two}")
-        break
+        go_back = input("\nGo back to the main menu? (Y/N): ")
+        
+        if go_back == "y" or "Y":
+            continue
+        elif go_back == "n" or "N":
+            break
+        else:
+            print("Please enter Y or N to continue or exit: ")
 
     # Subtration
     elif oper == "1":
-        value_one = float(input("\nFirst value:"))
-        value_two = float(input("\nSecond value:"))
+        value_one = float(input("\nFirst value: "))
+        value_two = float(input("\nSecond value: "))
         print(f"The answer is: {value_one - value_two}")
         break
 
@@ -57,18 +64,18 @@ while True:
     
     # Sine
     elif oper == "7":
-        value_one = float(input("\nEnter value: "))
+        value_one = float(input("\nEnter the angle in radians: "))
         print(f"The answer is: {math.sin(value_one)}")
         break
 
     # Cosine
     elif oper == "8":
-        value_one = float(input("\nEnter value:"))
+        value_one = float(input("\nEnter the angle in radians:"))
         print(f"The answer is: {math.cos(value_one)}")
         break
 
     # Tangent
     elif oper == "9":
-        value_one = float(input("\nEnter value:"))
+        value_one = float(input("\nEnter the angle in radians:"))
         print(f"The answer is: {math.tan(value_one)}")
         break
