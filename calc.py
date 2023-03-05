@@ -18,7 +18,7 @@ while True:
         else:
             break
 
-    # Subtration
+    # Subtraction
     elif oper == "1":
         value_one = float(input("\nFirst value: "))
         value_two = float(input("\nSecond value: "))
@@ -27,36 +27,36 @@ while True:
 
     # Multiplication
     elif oper == "2":
-        value_one = float(input("\nFirst value:"))
-        value_two = float(input("\nSecond value:"))
+        value_one = float(input("\nFirst value: "))
+        value_two = float(input("\nSecond value: "))
         print(f"The answer is: {value_one * value_two}")
         break
 
     # Division
     elif oper == "3":
-        value_one = float(input("\nFirst value:"))
-        value_two = float(input("\nSecond value:"))
+        value_one = float(input("\nFirst value: "))
+        value_two = float(input("\nSecond value: "))
         print(f"The answer is: {value_one / value_two}")
         break
 
     # Modulo
     elif oper == "4":
-        value_one = float(input("\nFirst value:"))
-        value_two = float(input("\nSecond value:"))
+        value_one = float(input("\nFirst value: "))
+        value_two = float(input("\nSecond value: "))
         print(f"The answer is: {value_one % value_two}")
         break
         
     # Raise to nth power
     elif oper == "5":
-        value_one = float(input("\nFirst value:"))
-        value_two = float(input("\nPower to raise to:"))
+        value_one = float(input("\nFirst value: "))
+        value_two = float(input("\nPower to raise to: "))
         print(f"The answer is: {value_one ** value_two}")
         break
 
     # Logarithm
     elif oper == "6":
         value_one = float(input("\nEnter value: "))
-        base = float(input("\nBase of the logarith :"))
+        base = float(input("\nBase of the logarith : "))
         print(f"The answer is: {math.log(value_one, base)}")
         break
     
@@ -68,12 +68,12 @@ while True:
 
     # Cosine
     elif oper == "8":
-        value_one = float(input("\nEnter the angle in radians:"))
+        value_one = float(input("\nEnter the angle in radians: "))
         print(f"The answer is: {math.cos(value_one)}")
         break
 
     # Tangent
     elif oper == "9":
-        value_one = float(input("\nEnter the angle in radians:"))
+        value_one = float(input("\nEnter the angle in radians: "))
         print(f"The answer is: {math.tan(value_one)}")
         break
