@@ -2,7 +2,7 @@ import math
 
 
 while True:
-    print("\n=======================================================\n                      Sci-calc\n=======================================================\n0 - Addition\n1 - Subtraction\n2 - Multiplication\n3 - Division\n4 - Modulo\n5 - Raise to nth power\n6 - Logarithm\n7 - Sine\n8 - Cosine\n9 - Tangent\n=======================================================")
+    print("\n=======================================================\n                      Sci-Calc\n=======================================================\n0 - Addition\n1 - Subtraction\n2 - Multiplication\n3 - Division\n4 - Modulo\n5 - Raise to nth power\n6 - Logarithm\n7 - Sine\n8 - Cosine\n9 - Tangent\n=======================================================")
 
     oper = input("\nChoose an option from the menu: ")
 
@@ -10,15 +10,13 @@ while True:
     if oper == "0": 
         value_one = float(input("\nFirst value: "))
         value_two = float(input("\nSecond value: "))
-        print(f"The answer is: {value_one + value_two}")
+        print(f"\nThe answer is: {value_one + value_two}")
         go_back = input("\nGo back to the main menu? (Y/N): ")
         
-        if go_back == "y" or "Y":
+        if go_back.upper() == "Y":
             continue
-        elif go_back == "n" or "N":
-            break
         else:
-            print("Please enter Y or N to continue or exit: ")
+            break
 
     # Subtration
     elif oper == "1":
