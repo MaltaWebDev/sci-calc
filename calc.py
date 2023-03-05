@@ -11,8 +11,8 @@ while True:
         value_one = float(input("\nFirst value: "))
         value_two = float(input("\nSecond value: "))
         print(f"\nThe answer is: {value_one + value_two}")
+
         go_back = input("\nGo back to the main menu? (Y/N): ")
-        
         if go_back.upper() == "Y":
             continue
         else:
@@ -23,57 +23,118 @@ while True:
         value_one = float(input("\nFirst value: "))
         value_two = float(input("\nSecond value: "))
         print(f"The answer is: {value_one - value_two}")
-        break
+        
+        go_back = input("\nGo back to the main menu? (Y/N): ")
+        if go_back.upper() == "Y":
+            continue
+        else:
+            break
+
+        
 
     # Multiplication
     elif oper == "2":
         value_one = float(input("\nFirst value: "))
         value_two = float(input("\nSecond value: "))
         print(f"The answer is: {value_one * value_two}")
-        break
+        
+        go_back = input("\nGo back to the main menu? (Y/N): ")
+        if go_back.upper() == "Y":
+            continue
+        else:
+            break
+
+        
 
     # Division
     elif oper == "3":
         value_one = float(input("\nFirst value: "))
         value_two = float(input("\nSecond value: "))
         print(f"The answer is: {value_one / value_two}")
-        break
+        
+        go_back = input("\nGo back to the main menu? (Y/N): ")
+        if go_back.upper() == "Y":
+            continue
+        else:
+            break
+
+        
 
     # Modulo
     elif oper == "4":
         value_one = float(input("\nFirst value: "))
         value_two = float(input("\nSecond value: "))
         print(f"The answer is: {value_one % value_two}")
-        break
+        
+        go_back = input("\nGo back to the main menu? (Y/N): ")
+        if go_back.upper() == "Y":
+            continue
+        else:
+            break
+
+        
         
     # Raise to nth power
     elif oper == "5":
         value_one = float(input("\nFirst value: "))
         value_two = float(input("\nPower to raise to: "))
         print(f"The answer is: {value_one ** value_two}")
-        break
+        
+        go_back = input("\nGo back to the main menu? (Y/N): ")
+        if go_back.upper() == "Y":
+            continue
+        else:
+            break
+
+        
 
     # Logarithm
     elif oper == "6":
         value_one = float(input("\nEnter value: "))
         base = float(input("\nBase of the logarith : "))
         print(f"The answer is: {math.log(value_one, base)}")
-        break
+        
+        go_back = input("\nGo back to the main menu? (Y/N): ")
+        if go_back.upper() == "Y":
+            continue
+        else:
+            break
+
+        
     
     # Sine
     elif oper == "7":
         value_one = float(input("\nEnter the angle in radians: "))
         print(f"The answer is: {math.sin(value_one)}")
-        break
+        
+        go_back = input("\nGo back to the main menu? (Y/N): ")
+        if go_back.upper() == "Y":
+            continue
+        else:
+            break
+
+        
 
     # Cosine
     elif oper == "8":
         value_one = float(input("\nEnter the angle in radians: "))
         print(f"The answer is: {math.cos(value_one)}")
-        break
+        
+        go_back = input("\nGo back to the main menu? (Y/N): ")
+        if go_back.upper() == "Y":
+            continue
+        else:
+            break
+
+        
 
     # Tangent
     elif oper == "9":
         value_one = float(input("\nEnter the angle in radians: "))
         print(f"The answer is: {math.tan(value_one)}")
-        break
+        
+        go_back = input("\nGo back to the main menu? (Y/N): ")
+        if go_back.upper() == "Y":
+            continue
+        else:
+            break
