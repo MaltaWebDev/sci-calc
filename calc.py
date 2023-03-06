@@ -6,6 +6,7 @@ while True:
 
     oper = input("\nChoose an option from the menu: ")
 
+
     # Addition
     if oper == "0": 
         value_one = float(input("\nFirst value: "))
@@ -17,6 +18,7 @@ while True:
             continue
         else:
             break
+
 
     # Subtraction
     elif oper == "1":
